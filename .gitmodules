@@ -1,0 +1,3 @@
+[submodule "WEBSITE"]
+    path = WEBSITE
+    url = https://github.com/username/WEBSITE.git
