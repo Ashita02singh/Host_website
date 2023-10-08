@@ -1,0 +1,379 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Strait&display=swap');
+
+
+div{
+    background-color: white;
+}
+.main-body{
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  padding: 0px;
+  background-color:rgb(194, 239, 212);
+}
+.main-photos{
+  width: 60%; 
+  height: 90vh; 
+  text-align: center; 
+  color: white;
+  background-color:rgb(194, 239, 212);
+}
+.main-text{
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  width: 40%; 
+  height: 90vh; 
+  border:none;
+  background-color:rgb(194, 239, 212);
+  
+}
+.title{
+  padding-top: 150px;
+  font-size: 60px;
+  text-align: center;
+  color:rgb(34,79, 52);
+  font-family: 'Stylish', sans-serif;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-shadow: 1px 1px 4px rgb(35, 130, 93);
+}
+.desc{
+  margin: 5px;
+  padding-top: 0px;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Strait', sans-serif;
+  color:rgb(34,79, 52);
+  text-shadow: 2px 2px 5px rgb(35, 130, 93);
+}
+  
+.main-image{
+  padding-top: 130px;
+  width: 75%;
+  height:80%;
+}
+.about-us{
+  min-height: 100vh;
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  padding-top: 20px;
+  background-color: white;
+  height: 150px;
+}
+.content {
+  display: flex;
+  flex: 1;
+  background-color: rgb(15, 35, 121);
+  color: #000; 
+}
+.c1{
+  width: 33%;
+  order: 1;
+  background-color: white;
+
+}
+.c2{
+  flex: 1;
+  order: 2;
+
+}
+.c3{
+  width: 33%;
+  order: 3;
+  background-color:white;
+
+}
+.foot1{
+  background-color: white;
+  height: 60px;
+}
+
+.Bttn {
+  background-color:rgb(34,79, 52);
+  color: white;
+  border: none;
+  width: 220px;
+  height: 55px;
+  border-radius: 1000px;
+  margin-top: 70px;
+  margin-left: 150px;
+  font-family: 'Stylish', sans-serif;
+  font-size: 16px;
+}
+
+.Bttn:hover,.see-more-button:hover {
+  cursor: pointer;
+}
+.subt1{
+  padding-top: 10px;
+  border-bottom: 1px solid rgb(194,239, 212);
+  line-height: 68px;
+  font-size: 40px;
+  text-align: center;
+  color:rgb(34, 79, 52);
+  font-family: 'Stylish', sans-serif;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+.subt2,.feed{
+  padding-top: 20px;
+  font-size: 15px;
+  text-align: center;
+  color:rgb(34, 79, 52);
+  font-family: 'Strait', sans-serif;
+  padding-bottom: 0px;
+  margin: 0px;
+
+}
+.sub-image{
+  height: 86%;
+  width: 80%;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.sub-title{
+  margin: 5px;
+  padding-top: 0px;
+  text-align: center;
+  font-size: 17px;
+  font-family: 'Strait', sans-serif;
+  color:rgb(34,79, 52);
+}
+.see-more-button{
+  border: 2px solid rgb(34, 79, 52);
+  background-color: white;
+  padding: 12px 15px;
+  color: rgb(34, 79, 52);
+  margin-left: 650px;
+
+}
+.feedback{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(30, 80, 64);
+}
+.r1,.r2,.r3{
+  box-shadow: 10px 10px rgb(197, 233, 197);
+  width: 33.33%;
+  order: 1;
+  height: 250px;
+  background-color: white;
+}
+.footer{
+  height: 280px;
+}
+.feed{
+  width: 350px;
+  text-align: center;
+  margin-left: 60px;
+  line-height: 25px;
+}
+.cust{
+font-size: 40px;
+text-align: center;
+color:rgb(34, 79, 52);
+font-family: 'Stylish', sans-serif;
+padding-bottom: 10px;
+margin: 0px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+
+
+
+
+.footer-distributed{
+	background: rgb(30, 80, 64);;
+	box-shadow: 0 1px 1px 0  rgb(30, 80, 64);;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color: white;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  rgb(30, 80, 64);
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color: rgb(30, 80, 64); 
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+  background-color:  rgb(30, 80, 64);
+}
+.f{
+  background-color: rgb(30, 80, 64);
+}
+.footer-distributed .footer-center i{
+	background-color:  rgb(30, 80, 64);
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  white;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  white;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:   rgb(30, 80, 64);;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
